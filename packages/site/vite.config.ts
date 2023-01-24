@@ -11,11 +11,11 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      // selfDestroying: true,
+      selfDestroying: true,
       manifest: {
-        name: "Xenpaper",
-        short_name: "Xenpaper",
-        description: "Text-based microtonal sequencer",
+        name: "Damien Clarke",
+        short_name: "Damien Clarke",
+        description: "Website time",
         display: "fullscreen",
         theme_color: "#0e151b",
         icons: [

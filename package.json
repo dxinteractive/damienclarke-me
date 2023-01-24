@@ -1,14 +1,14 @@
 {
-  "name": "xenpaper-v2",
+  "name": "damienclarke-me",
   "version": "0.0.0",
-  "description": "Xenpaper",
+  "description": "Damien Clarke",
   "keywords": [
     "xenharmonic",
     "microtonal",
     "sequencer"
   ],
-  "homepage": "https://xenpaper.com",
-  "repository": "https://github.com/dxinteractive/xenpaper-v2",
+  "homepage": "https://damienclarke.me",
+  "repository": "https://github.com/dxinteractive/damienclarke-me",
   "author": "Damien Clarke <dxinteractive@gmail.com>",
   "license": "MIT",
   "engines": {

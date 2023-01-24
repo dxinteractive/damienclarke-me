@@ -4999,18 +4999,6 @@ modify-values@^1.0.0:
   resolved "https://registry.npmjs.org/modify-values/-/modify-values-1.0.1.tgz"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-mosfez-faust@0.0.21, mosfez-faust@^0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/mosfez-faust/-/mosfez-faust-0.0.21.tgz#8aee5689d83bea80a8355a3aa10373c661acec61"
-  integrity sha512-jKmAIrzoapSbXbjGnnwxatFvjhAmcq0S+pSpXwnYDdW7Do3gHJJZv4fwMvujHgXlgHoUviH5A/+h+x3BD9hQWw==
-
-mosfez-synth@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/mosfez-synth/-/mosfez-synth-0.0.9.tgz#55afbb9fc5a4f2e626a4f217c252db13775e0786"
-  integrity sha512-oNeX1ECWsrvT/2hhcVM7NpONOoej39kHegdtLTM4llp+OGcgrthKROwuh5e2TPnoLM0zQDAqNNAc2b8UF3f+XA==
-  dependencies:
-    mosfez-faust "0.0.21"
-
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"

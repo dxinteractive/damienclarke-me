@@ -1,8 +1,8 @@
-# xenpaper-v2
+# damienclarke-me
 
-![Master build](https://github.com/dxinteractive/xenpaper-v2/workflows/CI/badge.svg?branch=main)
+![Master build](https://github.com/dxinteractive/damienclarke-me/workflows/CI/badge.svg?branch=main)
 
-The new xenpaper.
+Just my website.
 
 ## Development
 
