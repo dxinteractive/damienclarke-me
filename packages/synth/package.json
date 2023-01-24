@@ -1,0 +1,12 @@
+{
+  "name": "xenpaper-synth",
+  "version": "0.0.0",
+  "description": "Its how xenpaper makes sounds",
+  "main": "src/synth.ts",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mosfez-faust": "^0.0.21",
+    "mosfez-synth": "^0.0.9"
+  }
+}

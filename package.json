@@ -1,0 +1,41 @@
+{
+  "name": "xenpaper-v2",
+  "version": "0.0.0",
+  "description": "Xenpaper",
+  "keywords": [
+    "xenharmonic",
+    "microtonal",
+    "sequencer"
+  ],
+  "homepage": "https://xenpaper.com",
+  "repository": "https://github.com/dxinteractive/xenpaper-v2",
+  "author": "Damien Clarke <dxinteractive@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "private": true,
+  "scripts": {
+    "prep": "yarn && yarn lerna bootstrap",
+    "lint": "yarn eslint ./packages",
+    "test": "echo \"no tests yet\" && exit 0",
+    "pretty": "yarn prettier --write .",
+    "dev": "yarn lerna run dev",
+    "build": "yarn lerna run build",
+    "preview": "yarn lerna run preview",
+    "build-gh-pages": "yarn lerna run build-gh-pages"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "lerna": "^6.0.3",
+    "prettier": "^2.8.0"
+  }
+}
