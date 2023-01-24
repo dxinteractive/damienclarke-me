@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/xenpaper-v2/sw.js', { scope: '/xenpaper-v2/' })})}
