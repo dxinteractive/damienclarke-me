@@ -1,12 +1,8 @@
 {
   "name": "damienclarke-me",
   "version": "0.0.0",
-  "description": "Damien Clarke",
-  "keywords": [
-    "xenharmonic",
-    "microtonal",
-    "sequencer"
-  ],
+  "description": "Website",
+  "keywords": [],
   "homepage": "https://damienclarke.me",
   "repository": "https://github.com/dxinteractive/damienclarke-me",
   "author": "Damien Clarke <dxinteractive@gmail.com>",

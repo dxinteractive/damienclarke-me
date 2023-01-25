@@ -15,7 +15,7 @@ export default defineConfig({
       manifest: {
         name: "Damien Clarke",
         short_name: "Damien Clarke",
-        description: "Website time",
+        description: "Software Engineer living in Hobart, Tasmania, Australia.",
         display: "fullscreen",
         theme_color: "#0e151b",
         icons: [

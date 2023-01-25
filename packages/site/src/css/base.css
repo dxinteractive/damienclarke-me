@@ -1,4 +1,11 @@
 /*
+  fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+/*
   css reset https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
@@ -97,8 +104,8 @@ h6 {
 
 html,
 body {
-  font-family: 'Nunito', sans-serif;
-  line-height: 1.5em;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.6em;
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -125,4 +132,8 @@ a {
 a:hover {
   color: var(--colorText);
   text-decoration: underline;
+}
+
+p {
+  margin: 0 0 16px;
 }

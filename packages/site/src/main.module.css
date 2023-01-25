@@ -1,3 +1,23 @@
 .main {
-  padding: 2rem;
+  padding: calc(.5vw + 16px);
+  max-width: calc((100vw / 2) + 400px);
+  margin: 0 auto;
+}
+
+.textWrapper {
+  margin-top: calc(6vw);
+  font-size: calc(.2vw + 14px);
+  line-height: 1.5em;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: calc(max(3vw + 10px, 36px));
+  line-height: calc(max(3vw + 10px, 36px));
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  max-width: 500px;
 }
