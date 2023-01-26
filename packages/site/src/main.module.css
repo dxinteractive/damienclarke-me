@@ -8,6 +8,7 @@
   margin-top: calc(6vw);
   font-size: calc(.2vw + 14px);
   line-height: 1.5em;
+  color: var(--colorText2);
 }
 
 .title {
@@ -16,8 +17,13 @@
   font-size: calc(max(3vw + 10px, 36px));
   line-height: calc(max(3vw + 10px, 36px));
   margin-bottom: 16px;
+  color: var(--colorText);
 }
 
 .subtitle {
-  max-width: 500px;
+  max-width: 29em;
+}
+
+.projects {
+  margin-top: 64px;
 }

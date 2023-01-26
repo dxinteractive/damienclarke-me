@@ -4,6 +4,7 @@ import "./css/base.css";
 import classes from "./main.module.css";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
+import { Project } from "./project";
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -27,23 +28,50 @@ function Main() {
           and I like coding newfangled user interfaces, and building software to
           make art with.
         </p>
-        <div>
-          <br />
-          xenpaper
-          <br />
-          mosfez-synth
-          <br />
-          mosfez
-          <br />
-          effects pedals
-          <br />
-          ResponsiveAnalogRead
-          <br />
-          loopdeloop
-          <br />
-          12gon
-          <br /> flash games: bloxorz, electricman 2, silversphere
-          <br />
+        <p>I'm currently living in Hobart, Tasmania, Australia.</p>
+        <div className={classes.projects}>
+          <Project index={0} name="xenpaper" href="https://xenpaper.com/">
+            microtonal sequencer web app
+          </Project>
+          <Project
+            index={1}
+            name="mosfez"
+            href="https://www.instagram.com/mosfez"
+          >
+            music project, soon
+          </Project>
+          <Project
+            index={2}
+            name="mosfez-synth"
+            href="https://github.com/dxinteractive/mosfez-synth"
+          >
+            polyphonic synth for web, wip
+          </Project>
+          <Project
+            index={3}
+            name="mosfez-faust"
+            href="https://github.com/dxinteractive/mosfez-faust"
+          >
+            typescript API for using faust with web audio
+          </Project>
+
+          <Project index={4} name="12gon" href="https://12gon.tumblr.com/">
+            code-generated animated geometry
+          </Project>
+          <Project
+            index={5}
+            name="bloxorz"
+            href="https://www.coolmathgames.com/0-bloxorz"
+          >
+            very old puzzle game
+          </Project>
+          <Project
+            index={6}
+            name="electricman 2"
+            href="https://www.addictinggames.com/action/electric-man-2"
+          >
+            very old flash game
+          </Project>
         </div>
         {/* <div>
           <p>
@@ -51,7 +79,7 @@ function Main() {
             programming experience with a focus on front-ends made of TypeScript
             and React.
           </p>
-          <p>I'm currently living in Hobart, Tasmania, Australia.</p>
+          
         </div> */}
       </div>
     </div>

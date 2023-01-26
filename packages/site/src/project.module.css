@@ -1,0 +1,20 @@
+.project {
+  color: var(--colorText3);
+}
+
+
+.index {
+  font-size: 0.7em;
+  color: var(--colorText4);
+  margin-right: 8px;
+}
+
+.name {
+  font-weight: 700;
+  color: var(--colorText);
+  display: inline-block;
+  width: 150px;
+}
+
+.desc {
+}
