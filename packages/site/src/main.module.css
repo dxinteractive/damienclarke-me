@@ -6,7 +6,7 @@
 
 .textWrapper {
   margin-top: calc(6vw);
-  font-size: calc(.2vw + 14px);
+  font-size: calc(.2vw + 15px);
   line-height: 1.5em;
   color: var(--colorText2);
 }

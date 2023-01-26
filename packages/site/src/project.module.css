@@ -2,19 +2,41 @@
   color: var(--colorText3);
 }
 
+/* .project ::selection {
+  background-color: var(--colorText3);
+} */
 
 .index {
+  display: inline-block;
   font-size: 0.7em;
   color: var(--colorText4);
-  margin-right: 8px;
+  width: 40px;
 }
 
 .name {
-  font-weight: 700;
-  color: var(--colorText);
   display: inline-block;
-  width: 150px;
+  width: 180px;
 }
 
 .desc {
+  display: block;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 700px) {
+  .desc {
+    display: inline;
+    margin-bottom: 0;
+  }
+}
+
+.more {
+  display: none;
+  font-style: italic;
+  color: #23a5cd;
+  font-size: 0.9em;
+}
+
+.project:hover .more {
+  display: inline;
 }

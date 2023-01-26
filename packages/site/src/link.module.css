@@ -1,0 +1,6 @@
+.link {
+  font-weight: 700;
+  color: var(--colorText);
+  display: inline-block;
+  cursor: pointer;
+}

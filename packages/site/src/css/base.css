@@ -87,9 +87,10 @@ h6 {
 :root {
   --colorText: #ffffff;
   --colorText2: rgb(87, 216, 255);
-  --colorText3: rgb(0 195 255);
+  --colorText3: rgb(255 103 103);
   --colorText4: rgb(87 113 132);
-  --colorBack: rgb(14, 21, 27);
+  --colorText5: rgb(149 121 249);
+  --colorBack: rgb(0, 0, 0);
   --colorBack2: rgb(24, 35, 45);
   --colorBack3: rgb(32, 48, 64);
   --colorBack4: rgb(41, 62, 83);
@@ -132,5 +133,5 @@ a:hover {
 }
 
 p {
-  margin: 0 0 16px;
+  margin: 0 0 24px;
 }
