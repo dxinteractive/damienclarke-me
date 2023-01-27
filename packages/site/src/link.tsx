@@ -8,13 +8,15 @@ type LinkProps = {
 };
 
 export function Link(props: LinkProps) {
-  const { children, href = "#", onClick } = props;
+  const { children, href, onClick } = props;
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
+    if (!href) {
+      e.preventDefault();
+    }
     onClick?.();
   };
   return (
-    <a className={classes.link} href={href} onClick={handleClick}>
+    <a className={classes.link} href={href ?? "#"} onClick={handleClick}>
       {children}
     </a>
   );
