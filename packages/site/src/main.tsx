@@ -5,7 +5,6 @@ import classes from "./main.module.css";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Project } from "./project";
-import { Link } from "./link";
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -33,9 +32,9 @@ function Main() {
           </p>
           <p>
             I'm currently living in Hobart, Tasmania, Australia.
-            <div>
+            {/* <div>
               <Link>more info</Link>
-            </div>
+            </div> */}
           </p>
           <div className={classes.projects}>
             <Project index={0} name="xenpaper" href="https://xenpaper.com/">
@@ -80,7 +79,7 @@ function Main() {
             >
               very old flash game
             </Project>
-            <Project name="more" />
+            {/* <Project name="more" /> */}
           </div>
           {/* <div>
           <p>
