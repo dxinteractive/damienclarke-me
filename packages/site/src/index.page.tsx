@@ -1,23 +1,23 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+// import React from "react";
+// import ReactDOM from "react-dom/client";
 import "./css/base.css";
-import classes from "./main.module.css";
+import classes from "./index.page.module.css";
 
-import { HashRouter, Routes, Route } from "react-router-dom";
+// import { HashRouter, Routes, Route } from "react-router-dom";
 import { Project } from "./project";
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Main />}></Route>
-      </Routes>
-    </HashRouter>
-  </React.StrictMode>
-);
+// ReactDOM.createRoot(document.getElementById("root")!).render(
+//   <React.StrictMode>
+//     <HashRouter>
+//       <Routes>
+//         <Route path="/" element={<Page />}></Route>
+//       </Routes>
+//     </HashRouter>
+//   </React.StrictMode>
+// );
 
-function Main() {
+function Page() {
   return (
     <>
       <div className={classes.main}>
@@ -94,3 +94,5 @@ function Main() {
     </>
   );
 }
+
+export default { Page };
