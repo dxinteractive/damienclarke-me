@@ -25,14 +25,13 @@ function Main() {
         <div className={classes.textWrapper}>
           <div>Hello I'm</div>
           <h1 className={classes.title}>Damien Clarke</h1>
-          {/* <div>Software Engineer living in Hobart, Tasmania, Australia.</div> */}
           <p className={classes.subtitle}>
             and I like coding newfangled user interfaces, and building software
             to make art with.
             {/* <div>⣿⣿⣿⣿⣿⣦⡀⡀⡀</div> */}
           </p>
           <p>
-            I'm currently living in Hobart, Tasmania, Australia.
+            I'm currently living in Melbourne, Australia.
             {/* <div>
               <Link>more info</Link>
             </div> */}
