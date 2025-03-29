@@ -44,7 +44,7 @@ function Main() {
             </Link>
           </p>
           <div className={classes.projects}>
-            <Project index={0} name="xenpaper" href="https://xenpaper.com/">
+            <Project index={0} name="xenpaper" href="https://dxinteractive.github.io/xenpaper/">
               microtonal sequencer web app
             </Project>
             <Project
